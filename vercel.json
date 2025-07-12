@@ -15,7 +15,7 @@
       "dest": "/public/static/$1"
     },
     {
-      "src": "/(.*\\.(css|js|png|jpg|jpeg|gif|ico|svg))",
+      "src": "/(.*\\.(css|js|png|jpg|jpeg|gif|ico|svg|json|txt))",
       "dest": "/public/$1"
     },
     {

@@ -11,8 +11,16 @@
       "dest": "/api/server.js"
     },
     {
+      "src": "/static/(.*)",
+      "dest": "/public/static/$1"
+    },
+    {
+      "src": "/(.*\\.(css|js|png|jpg|jpeg|gif|ico|svg))",
+      "dest": "/public/$1"
+    },
+    {
       "src": "/(.*)",
-      "dest": "/api/server.js"
+      "dest": "/public/index.html"
     }
   ],
   "env": {
